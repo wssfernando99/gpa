@@ -159,18 +159,7 @@ class GPA{
 		float a10 = GPA.a*3.0f;
 		double b10 = Math.round(a10*10)/10.0;
 		double gpa = (b1+b2+b3+b4+b5+b6+b7+b8+b9+b10)/25;
-		System.out.println("\t-----********-----");
-		System.out.println("Module\t\tGrade\t\tCredit");
-		System.out.println("IS1101\t\t"+obj2.su1+"\t\t"+b1);
-		System.out.println("IS1203\t\t"+obj2.su2+"\t\t"+b2);
-		System.out.println("IS1204\t\t"+obj2.su3+"\t\t"+b3);
-		System.out.println("IT1201\t\t"+obj2.su4+"\t\t"+b4);
-		System.out.println("IT1203\t\t"+obj2.su5+"\t\t"+b5);
-		System.out.println("IT1204\t\t"+obj2.su6+"\t\t"+b6);
-		System.out.println("IT1205\t\t"+obj2.su7+"\t\t"+b7);
-		System.out.println("IT1206\t\t"+obj2.su8+"\t\t"+b8);
-		System.out.println("IT1207\t\t"+obj2.su9+"\t\t"+b9);
-		System.out.println("IT1208\t\t"+obj2.su10+"\t\t"+b10);
+		
 		System.out.println("your GPA is "+gpa);
     }
 
