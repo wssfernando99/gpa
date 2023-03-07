@@ -1,0 +1,1 @@
+# this helps to calculate GPA of IT students in their second semester(NDT)
